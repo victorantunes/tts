@@ -47,7 +47,8 @@
             android:layout_height="wrap_content"
             android:text="Limpar"
             android:layout_weight="1"
-            android:singleLine="false" />
+            android:singleLine="false"
+            android:onClick="clearText" />
 
         <Button
             android:id="@+id/convertButton"
